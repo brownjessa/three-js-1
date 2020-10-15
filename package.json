@@ -1,18 +1,27 @@
 {
-  "name": "three-js-1",
+  "name": "threejs-boilerplate",
   "version": "1.0.0",
-  "descritption": "my first project practicing three.js",
-  "main": "index.html",
+  "description": "A Threejs Boilerplate to aid in quick prototyping",
+  "main": "index.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Jessamine Brown",
-  "license": "none",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sean-Bradley/Threejs-Boilerplate.git"
+  },
+  "keywords": [
+    "threejs"
+  ],
+  "author": "Sean Bradley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sean-Bradley/Threejs-Boilerplate/issues"
+  },
+  "homepage": "https://github.com/Sean-Bradley/Threejs-Boilerplate#readme",
   "dependencies": {
-    "three": {
-      "version": "0.121.1",
-      "resolved": "https://registry.npmjs.org/three/-/three-0.121.1.tgz",
-      "integrity": "sha512-+rYhNpW5W1aBdLkPQDld/GA4Sj/uOKJJKVpCAZUbpk/HZEiYRUlPt8+s+9nmxRglWmRHdBa3ERvUwqg4nmoA5w=="
-    }
+    "express": "^4.17.1",
+    "three": "^0.120.1"
   }
 }
